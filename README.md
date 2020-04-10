@@ -66,7 +66,6 @@ Follow these steps to setup and run this code pattern. The steps are described i
 2. [Generate the Business Network Archive](#2-generate-the-business-network-archive)
 3. [Deploy Network](#3-deploy-network)
       - [Deploy to Fabric locally](./docs/deploy-local-fabric.md)
-      - [Deploy to IBM Blockchain Starter Plan](./docs/deploy-ibm-starter.md)
 4. [Run Application](#4-run-application)
 
 
@@ -74,7 +73,7 @@ Follow these steps to setup and run this code pattern. The steps are described i
 
 Clone the `Customer Loyalty Program with Blockchain` repo locally. In a terminal, run:
 
-`git clone https://github.com/IBM/customer-loyalty-program`
+`git clone https://github.com/ArchanaPrabhuG/Customer-Loyalty-Blockchain`
 
 ## 2. Generate the Business Network Archive
 
@@ -87,7 +86,7 @@ This file will contain your network including:
 
 Run the following the command to create the bna file:
 ```
-cd customer-loyalty-program/
+cd Customer-Loyalty-Blockchain/
 npm install
 ```
 
@@ -100,7 +99,7 @@ The `composer archive create` command in `package.json` has created a file calle
 The bna can be deployed to a local instance of Fabric or can use IBM Blockchain Starter Plan.
 
 - [Deploy to Hyperledger Fabric locally](./docs/deploy-local-fabric.md)
-- [Deploy to IBM Blockchain Starter Plan](./docs/deploy-ibm-starter.md)
+
 
 
 ## 4. Run Application
@@ -125,9 +124,6 @@ The application should now be running at:
 </div>
 </br>
 
-### Deploy application to IBM Cloud
-
-If your hosting the network on IBM Blockchain Starter Plan, then you can [deploy the app to IBM Cloud](./docs/deploy-app-cloud.md).
 
 ## Links
 * [Hyperledger Fabric Docs](http://hyperledger-fabric.readthedocs.io/en/latest/)
