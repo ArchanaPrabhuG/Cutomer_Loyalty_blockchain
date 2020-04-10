@@ -11,7 +11,6 @@ Similarly for the partner, they will register by creating an identity on the net
 This code pattern is for developers looking to start building blockchain applications with Hyperledger Composer. When the reader has completed this code pattern, they will understand how to:
 
 * Create basic business network using Hyperledger Composer framework
-* Deploy the network to an instance of Hyperledger Fabric locally or on IBM Blockchain Starter Plan
 * Build a Node.js web application to interact with the blockchain network using Composer API
 
 
@@ -33,7 +32,7 @@ This code pattern is for developers looking to start building blockchain applica
 
 * [Hyperledger Composer v0.19.4](https://hyperledger.github.io/composer/latest/) Hyperledger Composer is an extensive, open development toolset and framework to make developing blockchain applications easier
 * [Hyperledger Fabric v1.1](https://hyperledger-fabric.readthedocs.io) Hyperledger Fabric is a platform for distributed ledger solutions, underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility and scalability.
-* [IBM Blockchain Starter Plan](https://console.bluemix.net/catalog/services/blockchain) The IBM Blockchain Platform Starter Plan allows to build and try out blockchain network in an environment designed for development and testing
+
 
 ## Featured technology
 + [Nodejs](https://www.python.org/) Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side
@@ -96,7 +95,7 @@ The `composer archive create` command in `package.json` has created a file calle
 
 ## 3. Deploy Network
 
-The bna can be deployed to a local instance of Fabric or can use IBM Blockchain Starter Plan.
+The bna can be deployed to a local instance of Fabric.
 
 - [Deploy to Hyperledger Fabric locally](./docs/deploy-local-fabric.md)
 
